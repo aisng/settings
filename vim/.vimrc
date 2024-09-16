@@ -9,6 +9,10 @@ colorscheme habamax
 syntax on
 set t_Co=256 
 set termguicolors
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
 
 " Enable setting the terminal title
 set title
