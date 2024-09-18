@@ -1,0 +1,31 @@
+{
+  "python.languageServer": "Default",
+  "python.autoComplete.extraPaths": [
+    "./venv/",
+    "./tools/"
+  ],
+  "python.analysis.include": [
+    "./venv/",
+    "./tools/"
+  ],
+  "python.analysis.extraPaths": [
+    "./venv/",
+    "./tools/"
+  ],
+  "python.terminal.activateEnvironment": true,
+  "autopep8.args": [
+    "--max-line-length=120",
+    "--experimental",
+    "--ignore=E402"
+  ],
+  "pylint.args": [
+    "--max-line-length=120",
+    "--disable=W0718, C0103, C0413, C0114, C0115, C0200, C0209, C0411, E1101, C0412"
+  ],
+  "flake8.args": [
+    "--max-line-length=120",
+    "--ignore=E402"
+  ],
+  "search.useIgnoreFiles": false,
+  "python.analysis.autoImportCompletions": true
+}
